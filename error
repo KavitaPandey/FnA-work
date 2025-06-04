@@ -1,0 +1,28 @@
+TypeError: 'type' object is not subscriptable
+Traceback:
+File "C:\Users\kavita239560\Desktop\FnA-work\venv\lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 88, in exec_func_with_error_handling
+    result = func()
+File "C:\Users\kavita239560\Desktop\FnA-work\venv\lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 579, in code_to_exec
+    exec(code, module.__dict__)
+File "C:\Users\kavita239560\Desktop\FnA-work\app.py", line 9, in <module>
+    from agents import InvoiceTracer, SpreadsheetTracer, ReconciliationTracer
+File "C:\Users\kavita239560\Desktop\FnA-work\agents\__init__.py", line 10, in <module>
+    from .simple_tracer import InvoiceTracer
+File "C:\Users\kavita239560\Desktop\FnA-work\agents\simple_tracer.py", line 12, in <module>
+    from langgraph.graph import StateGraph, END
+File "C:\Users\kavita239560\Desktop\FnA-work\venv\lib\site-packages\langgraph\graph\__init__.py", line 12, in <module>
+    from langgraph.pregel import Channel, Pregel
+File "C:\Users\kavita239560\Desktop\FnA-work\venv\lib\site-packages\langgraph\pregel\__init__.py", line 44, in <module>
+    from langgraph.channels.base import (
+File "C:\Users\kavita239560\Desktop\FnA-work\venv\lib\site-packages\langgraph\channels\__init__.py", line 1, in <module>
+    from langgraph.channels.binop import BinaryOperatorAggregate
+File "C:\Users\kavita239560\Desktop\FnA-work\venv\lib\site-packages\langgraph\channels\binop.py", line 6, in <module>
+    from langgraph.channels.base import BaseChannel, EmptyChannelError, Value
+File "C:\Users\kavita239560\Desktop\FnA-work\venv\lib\site-packages\langgraph\channels\base.py", line 17, in <module>
+    from langgraph.checkpoint.base import Checkpoint
+File "C:\Users\kavita239560\Desktop\FnA-work\venv\lib\site-packages\langgraph\checkpoint\__init__.py", line 1, in <module>
+    from langgraph.checkpoint.base import BaseCheckpointSaver, CheckpointAt
+File "C:\Users\kavita239560\Desktop\FnA-work\venv\lib\site-packages\langgraph\checkpoint\base.py", line 15, in <module>
+    class Checkpoint(TypedDict):
+File "C:\Users\kavita239560\Desktop\FnA-work\venv\lib\site-packages\langgraph\checkpoint\base.py", line 18, in Checkpoint
+    channel_values: dict[str, Any]
