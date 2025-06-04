@@ -1,0 +1,48 @@
+INVOICE
+
+Invoice Number: INV-2025-05-21
+Date: May 21, 2025
+Due Date: June 20, 2025
+
+FROM:
+ABC Suppliers Inc.
+123 Business Street
+Metropolis, CA 90210
+contact@abcsuppliers.com
+
+TO:
+XYZ Corporation
+456 Corporate Avenue
+Business City, NY 10001
+
+PAYMENT TERMS: Net 30
+
+DESCRIPTION                   QUANTITY    UNIT PRICE    TOTAL
+-------------------------------------------------------------------------
+Premium Widgets                   100        $25.00      $2,500.00
+Deluxe Gadgets                    50        $150.00     $7,500.00
+Custom Solutions Package           1     $15,000.00    $15,000.00
+-------------------------------------------------------------------------
+
+SUBTOTAL:                                              $25,000.00
+TAX (8.5%):                                             $2,125.00
+SHIPPING:                                                 $750.00
+-------------------------------------------------------------------------
+TOTAL AMOUNT:                                          $27,875.00
+
+PAYMENTS RECEIVED:
+DATE            AMOUNT       METHOD
+--------------------------------
+April 10, 2025  $10,000.00   Wire Transfer
+May 5, 2025     $15,000.00   Credit Card
+--------------------------------
+TOTAL PAYMENTS:              $25,000.00
+
+OUTSTANDING AMOUNT:          $1,218,599.00
+
+Please remit payment to:
+Bank: First National Bank
+Account: 1234567890
+Routing: 987654321
+
+THANK YOU FOR YOUR BUSINESS!
